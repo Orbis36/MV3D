@@ -48,8 +48,6 @@ CUDA capabilities and change the figure after 'SM' in the 'src/net/lib/' folder.
 #   Compute/shader model   Cards
 #   6.1		           Titan X so CUDA_MODEL = 61
 #   8.6                    RTX 3090
-#   Other Nvidia shader models should work, but they will require extra startup
-#   time as the code is pre-optimized for them.
 CUDA_MODELS=30 35 37 52 60 61
 ```
 For training, you need to provide iteration and tags as following, basically we need all parts of network, so in -t, all
